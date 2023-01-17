@@ -6,7 +6,7 @@ body{
 }
 
 nav{
-    position: relative;
+    position: absolute;
     width: 100vw;
     height: 60px;
     background: rgb(121,0,0);
