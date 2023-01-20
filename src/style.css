@@ -11,9 +11,12 @@ body{
     height: 60px;
     background: rgb(121,0,0);
     background: linear-gradient(90deg, rgba(121,0,0,1) 0%, rgba(186,0,0,1) 50%, rgba(255,0,0,1) 100%);
+    transition: 200ms;
+}
+
+.nav--before{
     display: flex;
     justify-content: right;
-    transition: 200ms;
 }
 
 .nav--title{
@@ -34,6 +37,15 @@ body{
     transition: 200ms;
 }
 
+.links--container{
+    display: none;
+}
+
+.links{
+    display:flex;
+    justify-content: center;
+}
+
 .nav:hover{
     height: 120px;
     transition: 200ms;
@@ -41,6 +53,10 @@ body{
 
 .nav:hover .drop{
     transform: rotate(180deg);
+}
+
+.nav:hover .links--container{
+    display:block;
 }
 
 .content{
