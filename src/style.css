@@ -11,7 +11,7 @@ body{
     height: 60px;
     background: rgb(121,0,0);
     background: linear-gradient(90deg, rgba(121,0,0,1) 0%, rgba(186,0,0,1) 50%, rgba(255,0,0,1) 100%);
-    transition: 200ms;
+    transition: height 200ms ease;
 }
 
 .nav--before{
@@ -37,26 +37,27 @@ body{
     transition: 200ms;
 }
 
-.links--container{
-    display: none;
-}
-
 .links{
     display:flex;
     justify-content: center;
+    transition: 200ms;
+}
+
+.link--text{
+    opacity: 0;
 }
 
 .nav:hover{
     height: 120px;
-    transition: 200ms;
 }
 
 .nav:hover .drop{
     transform: rotate(180deg);
 }
 
-.nav:hover .links--container{
-    display:block;
+.nav:hover .link--text{
+    opacity: 1;
+    transition: 200ms ease-in-out;
 }
 
 .content{

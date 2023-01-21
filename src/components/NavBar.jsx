@@ -9,9 +9,9 @@ export default function NavBar(){
             </div>
             <div className = "links--container">
                 <div className = "links">
-                    <h1>Github</h1>
-                    <h1>poop</h1>
-                    <h1>poop</h1>
+                    <span className = "link--text">Github</span>
+                    <span className = "link--text">Email</span>
+                    <span className = "link--text">LinkedIn</span>
                 </div>
             </div>
         </nav>
