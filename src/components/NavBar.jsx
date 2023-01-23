@@ -9,9 +9,9 @@ export default function NavBar(){
             </div>
             <div className = "links--container">
                 <div className = "links">
-                    <span className = "link--text">Github</span>
-                    <span className = "link--text">Email</span>
-                    <span className = "link--text">LinkedIn</span>
+                    <a className = "link--text" href="https://github.com/gabengu" target="_blank">Github</a>
+                    <a className = "link--text" href="#">Email</a>
+                    <a className = "link--text" href="#">LinkedIn</a>
                 </div>
             </div>
         </nav>
