@@ -20,8 +20,8 @@ export default function NavBar(){
             <div className = "links--container">
                 <div className = "links">
                     <a className = "link--text" href="https://github.com/gabengu" target="_blank">Github</a>
-                    <a className = "link--text" href="#">Email</a>
-                    <a className = "link--text" href="#">LinkedIn</a>
+                    <a className = "link--text" href="mailto: gabengu@gmail.com">Email</a>
+                    <a className = "link--text" href="https://www.linkedin.com/in/gabengu/">LinkedIn</a>
                 </div>
             </div>
         </nav>
