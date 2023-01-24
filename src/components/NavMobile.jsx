@@ -4,7 +4,7 @@ export default function NavMobile(){
             <div className = "mobile--container">
                 <a className = "link--mobile" href="https://github.com/gabengu" target="_blank">Github</a>
                 <a className = "link--mobile" href="mailto: gabengu@gmail.com">Email</a>
-                <a className = "link--mobile" href="https://www.linkedin.com/in/gabengu/">LinkedIn</a>
+                <a className = "link--mobile" href="https://www.linkedin.com/in/gabengu/" target="_blank">LinkedIn</a>
             </div>
         </div>
     )
