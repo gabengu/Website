@@ -1,4 +1,4 @@
-import headshot from "..//assets/image.png"
+import headshot from "..//assets/Headshot.jpg"
 
 export default function Content(){
     return(
